@@ -1,0 +1,6 @@
+# compiled binary
+itemsapi
+
+# anything holding secrets
+*.env
+.env
