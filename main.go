@@ -63,7 +63,7 @@ func main() {
 
 	http.HandleFunc("/items/", itemHandler)  // PUT update, DELETE one
 
-	log.Println("listening on :8080")
+	log.Println("listening on :8080 - auto-deployed v2")
 
 	log.Fatal(http.ListenAndServe("127.0.0.1:8080", nil))
 }
